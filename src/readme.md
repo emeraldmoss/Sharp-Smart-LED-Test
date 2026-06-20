@@ -6,3 +6,12 @@
 - CS   → P0.17 (A0)
 - VCC  → 3.3V
 - GND  → GND
+
+To get the pins for the Development kit:
+code ~/.platformio/packages/framework-arduinonordicnrf5/variants/nRF52DK/variant.h
+
+#define PIN_SPI_MISO         (12)
+#define PIN_SPI_MOSI         (11)
+#define PIN_SPI_SCK          (13)
+
+code ~/.platformio/packages/framework-arduinonordicnrf5/variants/nRF52DK/variant.cpp
